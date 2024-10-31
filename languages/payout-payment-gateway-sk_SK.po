@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Payout payment gateway\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-30 12:03+0000\n"
+"PO-Revision-Date: 2023-06-28 11:17+0200\n"
+"Last-Translator: \n"
+"Language-Team: Slovenčina\n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : "
+"2;\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Loco-Version: 2.4.6; wp-5.6.2\n"
+
+msgid "Allow"
+msgstr "Povoliť"
+
+msgid "Allow gateway"
+msgstr "Povoliť bránu"
+
+msgid "Client ID"
+msgstr "Kľúč"
+
+msgid "Client Secret"
+msgstr "Tajomstvo"
+
+msgid "Debug"
+msgstr "Režim záznamu chýb"
+
+msgid "Description"
+msgstr "Popis"
+
+msgid ""
+"Disclaimer: If it's allowed, order id is used as unique key to block "
+"creating multiple checkouts with same order id. When system change the "
+"order's amount and order id will be same, new checkout will not be created "
+"so old amount will be used for payment."
+msgstr ""
+"Výstraha: Ak povolené, tak ID objednávky sa používa ako jedinečný kľúč na "
+"blokovanie vytvárania viacerých platieb s rovnakým ID objednávky. Keď systém "
+"zmení sumu objednávky a ID objednávky bude rovnaké, nová platba sa "
+"nevytvorí, takže sa na platbu použije stará suma."
+
+msgid "For example: sk,en"
+msgstr "Napríklad: sk,en"
+
+msgid "Gateway allow"
+msgstr "Povoliť bránu"
+
+msgid "Gateway name"
+msgstr "Názov brány"
+
+#. URI of the plugin
+msgid "https://www.payout.one/"
+msgstr "https://www.payout.one/"
+
+#. Author URI of the plugin
+msgid "https://www.seduco.sk/"
+msgstr "https://www.seduco.sk/"
+
+msgid "Instructions"
+msgstr "Inštrukcie"
+
+msgid "Instructions that will be added to the thank you page and emails."
+msgstr "Pokyny, ktoré sa pridajú na stránku s poďakovaním a do e-mailov."
+
+msgid "Language"
+msgstr "Jazyk"
+
+msgid "Notification URL: "
+msgstr "Notifikačná URL adresa: "
+
+#. Description of the plugin
+msgid "Official Payout payment gateway plugin for WooCommerce."
+msgstr "Oficiálny zásuvný modul pre platobnú bránu Payout pre WooCommerce."
+
+#, php-format
+msgid "Payment gateway %s : Order value must be greater than 0."
+msgstr "Platobná brána %s : Hodnota objednávky musí byť vyššia ako 0."
+
+#, php-format
+msgid "Payment gateway %s : There is a problem, contact your webmaster."
+msgstr "Platobná brána %s : Vyskytol sa problém, kontaktuje správcu webu."
+
+msgid "Payment method"
+msgstr "Platobná metóda"
+
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "Popis spôsobu platby, ktorý sa zákazníkovi zobrazí pri vašej pokladni."
+
+msgid "Payout"
+msgstr "Payout"
+
+msgid ""
+"Payout does not support refunds in this way. To transfer the refund to the "
+"Payout system, change the status of the order to refunded."
+msgstr ""
+"Payout nepodporuje refundáciu týmto spôsobom. Aby sa refundácia preniesla do "
+"systému Payout zmeňte stav objednávky na refundovaná."
+
+msgid "Payout gateway integration."
+msgstr "Integrácia platobnej brány Payout."
+
+#. Name of the plugin
+msgid "Payout payment gateway"
+msgstr "Payout platobná brána"
+
+msgid "Production"
+msgstr "Produkcia"
+
+#. Author of the plugin
+msgid "Seduco"
+msgstr "Seduco"
+
+msgid "Send idempotency key"
+msgstr "Zasielať idempotency key"
+
+msgid "Settings"
+msgstr "Nastavenia"
+
+msgid "Status"
+msgstr "Stav"
+
+msgid "Test"
+msgstr "Test"
+
+msgid ""
+"This controls the title for the payment method the customer sees during "
+"checkout."
+msgstr "Nastavenie pre názov spôsobu platby, ktorý zákazník vidí počas platby."
+
+msgid "Your Client ID"
+msgstr "Váš kľúč"
+
+msgid "Your Client Secret"
+msgstr "Vaše tajomstvo"
+
+msgid "Order not found"
+msgstr "Objednávka nebola nájdená"
+
+msgid "checkout_id missing"
+msgstr "chýbajúce checkout_id"
+
+msgid "Payment method mismatch"
+msgstr "Nesprávna platobná metóda"
